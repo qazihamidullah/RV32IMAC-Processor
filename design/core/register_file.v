@@ -1,7 +1,6 @@
 //////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Afif Arif Siddiqi, asiddiqi.bee20seecs@seecs.edu.pk
-/// Date Created: 1/24/2024
-/// Description: <register file with combinational read but writes at a clock>
+/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
+/// Date Created: 2/24/2024
 ///////////////////////////////////////////////////////////////////////////
 
 module register_file
