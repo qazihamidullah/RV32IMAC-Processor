@@ -1,7 +1,6 @@
 //////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Afif Arif Siddiqi
-/// Date Created: 1/24/2024
-/// Description: <SOC top>
+/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
+/// Date Created: 2/24/2024
 ///////////////////////////////////////////////////////////////////////////
 
 module soc_top import risc_v_core_pkg::*;
