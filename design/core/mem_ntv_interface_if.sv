@@ -1,7 +1,6 @@
 //////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Afif Arif Siddiqi, asiddiqi.bee20seecs@seecs.edu.pk
-/// Date Created: 1/24/2024
-/// Description: <creating interfaces for DMEM and IMEM>
+/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
+/// Date Created: 2/24/2024
 ///////////////////////////////////////////////////////////////////////////
 
 
