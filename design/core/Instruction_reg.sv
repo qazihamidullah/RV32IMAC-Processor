@@ -1,8 +1,4 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Afif Arif Siddiqi, asiddiqi.bee20seecs@seecs.edu.pk
-/// Date Created: 1/24/2024
-/// Description: <module that identifies each instruction type>
-///////////////////////////////////////////////////////////////////////////
+
 
 module Instruction_reg import risc_v_core_pkg::*;
 (
