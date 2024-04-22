@@ -1,0 +1,62 @@
+## Highlight the current branch name in the terminal
+export PS1='\u@\h \[\e[32m\]\w \[\e[91m\]$(__git_ps1)\[\e[00m\]$ '
+
+## Work Directory
+export WD=$(pwd)
+
+## clone dv_tests
+echo -e "Entering DV_TESTS directory\n"
+
+  # clone  dv_test_rv_32i
+  echo "cloning dv_test_rv_32i"
+  [ ! -d "verif/dv_tests/dv_test_rv_32i/" ] && git clone git@github.com:qaziullah/dv_test_rv_32i.git ./verif/dv_tests/dv_test_rv_32i
+  echo "entering dv_test_rv_32i"
+  cd verif/dv_tests/dv_test_rv_32i/
+  git checkout main
+  git pull
+  echo -e "exiting dv_test_rv_32i\n"
+  echo -e "exiting DV_TESTS directory\n"
+  cd $WD
+
+# clone  dv_test_rv_32im
+echo "cloning dv_test_rv_32im"
+[ ! -d "verif/dv_tests/dv_test_rv_32im/" ] && git clone git@github.com:omanzoor/dv_test_rv_32im.git ./verif/dv_tests/dv_test_rv_32im
+echo "entering dv_test_rv_32im"
+cd verif/dv_tests/dv_test_rv_32im/
+git checkout main
+git pull
+echo -e "exiting dv_test_rv_32im\n"
+echo -e "exiting DV_TESTS directory\n"
+cd $WD
+
+# clone  dv_test_rv_32imc
+echo "cloning dv_test_rv_32imc"
+[ ! -d "verif/dv_tests/dv_test_rv_32imc/" ] && git clone git@github.com:omanzoor/dv_test_rv32imc.git ./verif/dv_tests/dv_test_rv_32imc
+echo "entering dv_test_rv_32imc"
+cd verif/dv_tests/dv_test_rv_32imc/
+git checkout main
+git pull
+echo -e "exiting dv_test_rv_32imc\n"
+echo -e "exiting DV_TESTS directory\n"
+cd $WD
+
+# clone  dv_test_rv_32imac
+echo "cloning dv_test_rv_32imac"
+[ ! -d "verif/dv_tests/dv_test_rv_32imac/" ] && git clone git@github.com:omanzoor/dv_test_rv_32imac.git ./verif/dv_tests/dv_test_rv_32imac
+echo "entering dv_test_rv_32imac"
+cd verif/dv_tests/dv_test_rv_32imac/
+git checkout main
+git pull
+echo -e "exiting dv_test_rv_32imc\n"
+echo -e "exiting DV_TESTS directory\n"
+cd $WD
+
+## clone documentation repo
+echo "cloning rv_doc repo"
+[ ! -d "doc/" ] && git clone git@github.com:qaziullah/rv_doc.git doc
+echo "entering doc directory"
+cd doc 
+git checkout main
+git pull
+echo -e "exiting doc directory\n"
+cd $WD
