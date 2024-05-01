@@ -1,0 +1,40 @@
+# design files
+# ips
+../../design/ips/mem_2p.sv
+../../design/ips/tracer/pkg.sv
+../../design/ips/tracer/tracer_pkg.sv
+../../design/ips/tracer/tracer.sv
+
+# core 
+../../design/core/pkg.sv
+../../design/core/adder.v
+../../design/core/ALUControl.v
+../../design/core/ALU.v
+../../design/core/c_controller.sv
+../../design/core/control_unit.v
+../../design/core/dummy_PC.sv
+../../design/core/forwarding_unit.v
+../../design/core/hazard_detection_unit.v
+../../design/core/Imm_Gen.v
+../../design/core/Instruction_reg.sv
+../../design/core/load_unit.v
+../../design/core/mem_ntv_interface_if.sv
+../../design/core/mux_3x1.v
+../../design/core/mux.v
+../../design/core/placeholder
+../../design/core/register_en.v
+../../design/core/register_file.v
+../../design/core/register.v
+../../design/core/reservation_file.sv
+../../design/core/amo_control_unit.sv
+../../design/core/RISCV32I.sv
+../../design/core/store_unit.v
+
+#uncore 
+
+#soc_top
+../../design/soc_top/soc_top.sv
+
+
+# test bench
+tb.sv
