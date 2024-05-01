@@ -12,7 +12,7 @@ You can clone this repository. This repository includes the following:
 
 Note: In order to simulate this you must have have a simulator. It has been simulated on QuestaSim and Cadence. If you have access to RISC-V Design Verification framework of Chips Alliance you just have to use the design folder and simulate it. 
 
-# Running Simulations
+# Running on Simulations
 You must  have the following softwares: 
 - In order to simulate the design you must have QuestaSim or any other simulator installed.
 - You must have Python3 installed.
@@ -22,6 +22,20 @@ The makefile available verif/sim will be used directly to simulate the design. N
 The bash script run_test.sh will be used if you want to run any particular test case of any architecture like rv32i, rv32im, rv32imc or rv32imac. 
 The init.sh sceipt will run all the test cases alongwith all the seeds inside them so it will take a while if you run it. This will run all the test cases of all architectures.
 
+# FPGA Emulation
+The design has been emulated on Intel DE1-SOC Board. You can emulate it on any FPGA. Follow the given steps to emulate it on FPGA: 
+- Make a new project and choose the board acccordingly.
+- Include all the design files inside the design/core in your project.
+- Use Memory IP to emulate on FPGA so that FPGA can use the memory blocks of the FPGA to construct memory instead of using LUTs to describe memory behaviour. Make sure the memory IP have separate ports for instruction memory and data memory. 
+- Include the soc_top file in your design. The files are available inside design/soc_top.
+- Include the mem.hex file to your memory IP for memory initialization. The mem.hex can include any instructions that you want to run on the core.
+- Synthesise the project and run RTL simulation to see the signals.
+
+# Benchmarks
+Dhrystone and Coremarks have been run on the deisgn which gave the following outputs. 
+- Dhrystone gave 1.65 DMIPS/MHz.
+- Coremark: A Coremark of 666 size with 10 iterations gave 2.7808 iterations per second.
+   
 # How it works
 All the testcases are available in verif/dv_tests folder. Inside it there are different test cases available for different architecture. Inside each architecture there are different seeds and each seed has iss.log file alonwith it. This log is generated after simulating the corresponding seed in spike simulator. 
 Now when we run the test.hex file available in each seed on our core we dump what our core write in register file, alongwith Program counter instruction and the value it writes in register file. The scripts availble in the script folder converts this file and generate a trace.log file.
