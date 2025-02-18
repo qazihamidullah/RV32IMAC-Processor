@@ -1,4 +1,11 @@
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:    2/24/2024
+// Module:  ALU.v       
+// Description: This is an ALU Module which performs
+//  all the operations like +,-,*,/
+//  
+//###############################################
 
 module ALU (
   input      [4:0] ALUctl,

@@ -1,7 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  forwarding_unit.v       
+// Description: Generates control signals in case of 
+//  forwarding for removing pipelining hazards
+//  
+//###############################################
 
 module forwarding_unit(
   input      [4:0] rs1, 

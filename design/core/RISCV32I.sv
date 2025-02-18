@@ -1,7 +1,11 @@
-
-//=======================================================
-//  module declaration
-//=======================================================
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  RISCV32I.sv       
+// Description: This is the core top module
+//  
+//  
+//###############################################
 
 module RISCV32IMC   import risc_v_core_pkg::*, tracer_pkg::*;
 (

@@ -1,7 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  mux_3x1.v       
+// Description: This is a mux which selects among 3 inputs.
+//  
+//  
+//###############################################
 
 module mux_3x1
 #(

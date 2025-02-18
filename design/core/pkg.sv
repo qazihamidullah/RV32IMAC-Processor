@@ -1,7 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  pkg.sv       
+// Description: This module contains enums which are
+//  used in the design. 
+//  
+//###############################################
 
 package risc_v_core_pkg;
 

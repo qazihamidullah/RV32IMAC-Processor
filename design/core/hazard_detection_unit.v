@@ -1,7 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	2/24/2024
+// Module:  hazard_detection_unit.v       
+// Description: Generates control signals in case of  
+//  pipelining hazards to halt PC
+//  
+//###############################################
 
 module hazard_detection_unit(
 	input [4:0] ID_EX_rd, 

@@ -1,4 +1,11 @@
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:    2/24/2024
+// Module:  control_unit.v       
+// Description: This module generates control
+//  signals for normal RV32IM insructions. 
+//  
+//###############################################
 
 module control_unit(
   input       [6:0] Op,

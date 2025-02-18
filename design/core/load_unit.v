@@ -1,7 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  load_unit.v       
+// Description: Decide which bytes to load among 32 bits 
+//  during load operations from data memory. 
+//  
+//###############################################
 
 module load_unit
 (

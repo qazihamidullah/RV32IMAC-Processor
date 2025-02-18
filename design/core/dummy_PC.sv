@@ -1,6 +1,11 @@
-
-
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	2/24/2024
+// Module:  dummy_PC.sv       
+// Description: Generates dummy PC in case of Compressed 
+//  as we have to increment PC by +2 instead of +4
+//  
+//###############################################
 module dummy_PC import risc_v_core_pkg::*;
 (
   input             clk,

@@ -1,4 +1,11 @@
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  Instruction_reg.sv       
+// Description: Decode instructions based on opcode 
+//  
+//  
+//###############################################
 
 module Instruction_reg import risc_v_core_pkg::*;
 (

@@ -1,9 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-/// Description: <reservation set with combinational read but writes at a clock>
-///////////////////////////////////////////////////////////////////////////
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	2/24/2024
+// Module:  csr_reg_file.sv       
+// Description: reservation set with combinational 
+//  read but writes at a clock
+//  
+//###############################################
 module csr_reg_file(
 	input                           clk,
 	input                           rst,

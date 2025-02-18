@@ -1,5 +1,11 @@
-
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:    2/24/2024
+// Module:  ALUControl.v       
+// Description: This module generates control
+//   signals for ALU
+//  
+//###############################################
 module ALUControl(
   input       [1:0] ALUOp,
   input       [2:0] funct3,

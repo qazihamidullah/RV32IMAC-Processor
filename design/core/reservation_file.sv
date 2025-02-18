@@ -1,8 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/10/2024
-/// Description: <reservation set with combinational read but writes at a clock>
-///////////////////////////////////////////////////////////////////////////
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  reservation_file.sv       
+// Description: This module maintains the reservation
+//  status in case of atomic LR/SC cases.
+//  
+//###############################################
 
 module reservation_file
 #(

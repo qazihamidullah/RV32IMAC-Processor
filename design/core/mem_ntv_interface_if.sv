@@ -1,8 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-/// Author (name and email): Qazi Hamid Ullah, qullah.bee20seecs@seecs.edu.pk
-/// Date Created: 2/24/2024
-///////////////////////////////////////////////////////////////////////////
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  mem_ntv_interface_if.sv       
+// Description: This is an interface module for better 
+//  handling of signals.
+//  
+//###############################################
 
 interface mem_ntv_interface_if ();
   logic [31:0]   addr;

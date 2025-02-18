@@ -1,4 +1,11 @@
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:    2/24/2024
+// Module:  c_controller.sv       
+// Description: This module generates control
+//  signals in compressed insructions case only. 
+//  
+//###############################################
 
 module c_controller import risc_v_core_pkg::*;
 (

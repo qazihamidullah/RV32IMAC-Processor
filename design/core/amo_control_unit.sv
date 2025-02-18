@@ -1,4 +1,11 @@
-// RISC V Atomic extension module RV32A 
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:    2/24/2024
+// Module:  amo_control_unit.sv       
+// Description: This module generates control
+//  signals in atomic insructions case only. 
+//  
+//###############################################
 import risc_v_core_pkg::*;
 
 module amo_control_unit(

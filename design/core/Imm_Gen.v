@@ -1,4 +1,11 @@
-
+//###############################################
+// Author:  Qazi Hamid Ullah (hamidullahqazi12@gmail.com)
+// Date:	  2/24/2024
+// Module:  Imm_Gen.v       
+// Description: Generates 32 bit Immediate value
+//  in case where Immediate is required like load
+//  immediate
+//###############################################
 
 module Imm_Gen 
 (
