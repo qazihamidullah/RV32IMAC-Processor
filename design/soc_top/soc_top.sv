@@ -27,7 +27,7 @@ module soc_top import risc_v_core_pkg::*;
 //  Structural coding
 //=======================================================
 
-  RISCV32IMC rv32_inst(     
+  core_top core(     
                 .clk_in                 (clk                              ),
                 .rst_in                 (rst                              ),
                 .mem_ntv_interface_imem (mem_ntv_interface_imem.core      ),

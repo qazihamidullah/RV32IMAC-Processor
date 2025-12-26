@@ -7,7 +7,7 @@
 //  
 //###############################################
 
-module RISCV32IMC   import risc_v_core_pkg::*, tracer_pkg::*;
+module core_top   import risc_v_core_pkg::*, tracer_pkg::*;
 (
   input                clk_in                ,
   input                rst_in                ,
